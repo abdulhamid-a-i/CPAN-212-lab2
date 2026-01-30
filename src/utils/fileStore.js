@@ -38,25 +38,49 @@ export async function writeIndex(docs) {
         return;
     }
     const tmp = `${PATHS.DOC_INDEX}.tmp`;
-    fsp.writeFileSync(tmp,json,"utf8");
-    fsp.renameSync(tmp, PATHS.DOC_INDEX);
+    await fsp.writeFileSync(tmp,json,"utf8");
+    await fsp.renameSync(tmp, PATHS.DOC_INDEX);
 
 }
 
 export async function writeBlob(docid, text){
     await ensureDirs();
     const filePath = path.join(PATHS.BLOB_DIR, `${docId}.txt`);
-    
+    if (STORAGE_MODE === "sync"){
+        return fs.writeFileSync(filePath,text,"utf-8");
+    }
+    return await fsp.writeFile(filePath,text,"utf8");
+
 }
 
 export async function readBlob(docid){
+    await ensureDirs();
+    const filePath = path.join(PATHS.BLOB_DIR, `${docId}.txt`);
+    if (STORAGE_MODE === "sync"){
+        return fs.readFileSync(filePath,"utf-8");
+    }
+    return await fsp.readFile(filePath,"utf8");
 
 }
 
 export async function writeExport(filename, payload){
-
+    await ensureDirs();
+    const filePath = path.join(PATHS.EXPORT_DIR, filename);
+    const json = JSON.stringify(payload, null, 2);
+    if (STORAGE_MODE === "sync"){
+        fs.writeFileSync(filePath,json,"utf-8");
+        return filePath;
+    }
+    await fsp.writeFile(filePath,json,"utf-8");
+    return filePath;
 }
 
 export async function appendAudit(eventObj){
-
+    await ensureDirs();
+    const line = JSON.stringify({ts: nowIso(), ...eventObj} + "\n");
+    if (STORAGE_MODE === "sync"){
+        fs.appendFileSync(PATHS.AUDIT_LOG, line, "utf-8");
+        return;
+    }
+    await fsp.appendFile(PATHS.AUDIT_LOG,line,"utf-8");
 }
