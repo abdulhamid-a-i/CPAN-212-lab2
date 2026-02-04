@@ -5,15 +5,16 @@ import { withRequestLogger } from "./middleware/requestLogger.js";
 import { sendError } from "./utils/response.js";
 
 const handler = withRequestLogger(async (req, res) => {
-    try{
-        await router(req, res);
-    } catch (err){
-        if (!res.headersSent) sendError(res, 500, "Internal server error");
-    }
+  try {
+    await router(req, res);
+  } catch (err) {
+    console.error(err);
+    if (!res.headersSent) sendError(res, 500, "Internal server error");
+  }
 });
 
 const server = http.createServer(handler);
 
 server.listen(PORT, () => {
-    console.log(`Server is running on http://localhost:${PORT}`);
+  console.log(`Server running on http://localhost:${PORT}`);
 });

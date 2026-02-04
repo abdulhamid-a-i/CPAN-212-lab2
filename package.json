@@ -1,9 +1,9 @@
 {
-    "name": "doc-intake-fullstake-lab2",
-    "version": "1.0.0",
-    "type": "module",
-    "private":true,
-    "scripts": {
-        "start": "node src/server.js"
-    }
+  "name": "cpan-212-lab2",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node src/server.js"
+  }
 }

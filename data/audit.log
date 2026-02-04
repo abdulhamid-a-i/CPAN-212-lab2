@@ -1,0 +1,85 @@
+{"ts":"2026-01-23T13:58:28.894Z","action":"CREATE","docId":"6bd66d85-4d2c-4192-a28f-d6c01f412f85","clientRef":"CLI-5861","docType":"ADDRESS_PROOF","status":"VALIDATED"}
+{"ts":"2026-01-23T13:58:28.904Z","action":"STATUS_CHANGE","docId":"6bd66d85-4d2c-4192-a28f-d6c01f412f85","from":"RECEIVED","to":"VALIDATED","reason":null}
+{"ts":"2026-01-23T13:58:42.301Z","action":"CONTENT_READ","docId":"6bd66d85-4d2c-4192-a28f-d6c01f412f85"}
+{"ts":"2026-01-23T13:59:16.602Z","action":"STATUS_CHANGE","docId":"6bd66d85-4d2c-4192-a28f-d6c01f412f85","from":"VALIDATED","to":"REJECTED","reason":"invalid"}
+{"ts":"2026-01-23T13:59:29.940Z","action":"DELETE","docId":"6bd66d85-4d2c-4192-a28f-d6c01f412f85","reason":"to be deleted"}
+{"ts":"2026-01-23T13:59:29.954Z","action":"STATUS_CHANGE","docId":"6bd66d85-4d2c-4192-a28f-d6c01f412f85","from":"REJECTED","to":"REJECTED","reason":"to be deleted"}
+{"ts":"2026-01-23T13:59:35.547Z","action":"DELETE","docId":"6bd66d85-4d2c-4192-a28f-d6c01f412f85","reason":"to be deleted"}
+{"ts":"2026-01-23T13:59:35.562Z","action":"STATUS_CHANGE","docId":"6bd66d85-4d2c-4192-a28f-d6c01f412f85","from":"REJECTED","to":"REJECTED","reason":"to be deleted"}
+{"ts":"2026-01-23T14:01:09.630Z","action":"EXPORT_GENERATED","filename":"export-20260123-090109.json","summary":{"date":"2026-01-23","total":1,"byStatus":{"REJECTED":1},"byDocType":{"ADDRESS_PROOF":1}}}
+{"ts":"2026-01-23T14:02:18.627Z","action":"CONTENT_REPLACED","docId":"6bd66d85-4d2c-4192-a28f-d6c01f412f85"}
+{"ts":"2026-01-23T14:02:18.641Z","action":"UPDATE","docId":"6bd66d85-4d2c-4192-a28f-d6c01f412f85"}
+{"ts":"2026-01-23T14:02:28.552Z","action":"CONTENT_READ","docId":"6bd66d85-4d2c-4192-a28f-d6c01f412f85"}
+{"ts":"2026-01-23T14:02:43.148Z","action":"CONTENT_REPLACED","docId":"6bd66d85-4d2c-4192-a28f-d6c01f412f85"}
+{"ts":"2026-01-23T14:02:43.162Z","action":"UPDATE","docId":"6bd66d85-4d2c-4192-a28f-d6c01f412f85"}
+{"ts":"2026-01-23T14:02:48.213Z","action":"CONTENT_READ","docId":"6bd66d85-4d2c-4192-a28f-d6c01f412f85"}
+{"ts":"2026-01-23T14:05:09.895Z","action":"CONTENT_REPLACED","docId":"6bd66d85-4d2c-4192-a28f-d6c01f412f85"}
+{"ts":"2026-01-23T14:05:09.908Z","action":"UPDATE","docId":"6bd66d85-4d2c-4192-a28f-d6c01f412f85"}
+{"ts":"2026-01-23T14:08:46.369Z","action":"CONTENT_REPLACED","docId":"6bd66d85-4d2c-4192-a28f-d6c01f412f85"}
+{"ts":"2026-01-23T14:08:46.387Z","action":"UPDATE","docId":"6bd66d85-4d2c-4192-a28f-d6c01f412f85"}
+{"ts":"2026-01-23T14:09:04.011Z","action":"DELETE","docId":"6bd66d85-4d2c-4192-a28f-d6c01f412f85","reason":"to be deleted"}
+{"ts":"2026-01-23T14:09:04.023Z","action":"STATUS_CHANGE","docId":"6bd66d85-4d2c-4192-a28f-d6c01f412f85","from":"REJECTED","to":"REJECTED","reason":"to be deleted"}
+{"ts":"2026-01-23T14:24:32.060Z","action":"DELETE","docId":"6bd66d85-4d2c-4192-a28f-d6c01f412f85","reason":"to be deleted"}
+{"ts":"2026-01-23T14:24:32.077Z","action":"STATUS_CHANGE","docId":"6bd66d85-4d2c-4192-a28f-d6c01f412f85","from":"REJECTED","to":"REJECTED","reason":"to be deleted"}
+{"ts":"2026-01-23T14:24:55.881Z","action":"CREATE","docId":"1f3f3b2e-ffb5-47b9-8bf3-9920ef8c8be7","clientRef":"CLI-7924","docType":"SIGNED_FORM","status":"VALIDATED"}
+{"ts":"2026-01-23T14:24:55.888Z","action":"STATUS_CHANGE","docId":"1f3f3b2e-ffb5-47b9-8bf3-9920ef8c8be7","from":"RECEIVED","to":"VALIDATED","reason":null}
+{"ts":"2026-02-01T23:07:34.521Z","action":"DELETE","docId":"6bd66d85-4d2c-4192-a28f-d6c01f412f85","reason":"test"}
+{"ts":"2026-02-01T23:07:34.524Z","action":"STATUS_CHANGE","docId":"6bd66d85-4d2c-4192-a28f-d6c01f412f85","from":"REJECTED","to":"REJECTED","reason":"test"}
+{"ts":"2026-02-04T13:27:10.053Z","action":"EXPORT_GENERATED","filename":"export-20260204-082710.json","summary":{"date":"2026-02-04","total":0,"byStatus":{},"byDocType":{}}}
+{"ts":"2026-02-04T15:12:49.377Z","action":"CREATE","docId":"41fd0ddf-805e-420c-8455-0a684cf5a195","clientRef":"CLI-3254","docType":"ID_PROOF","status":"VALIDATED"}
+{"ts":"2026-02-04T15:12:49.384Z","action":"STATUS_CHANGE","docId":"41fd0ddf-805e-420c-8455-0a684cf5a195","from":"RECEIVED","to":"VALIDATED","reason":null}
+{"ts":"2026-02-04T15:12:55.606Z","action":"CONTENT_READ","docId":"41fd0ddf-805e-420c-8455-0a684cf5a195"}
+{"ts":"2026-02-04T15:16:40.942Z","action":"DELETE","docId":"41fd0ddf-805e-420c-8455-0a684cf5a195","reason":"test delete v2"}
+{"ts":"2026-02-04T15:16:40.944Z","action":"STATUS_CHANGE","docId":"41fd0ddf-805e-420c-8455-0a684cf5a195","from":"VALIDATED","to":"REJECTED","reason":"test delete v2"}
+{"ts":"2026-02-04T15:17:40.563Z","action":"CREATE","docId":"7e548b15-1ce6-48a6-b519-aa01268bc167","clientRef":"CLI-3676","docType":"BANK_STATEMENT","status":"VALIDATED"}
+{"ts":"2026-02-04T15:17:40.564Z","action":"STATUS_CHANGE","docId":"7e548b15-1ce6-48a6-b519-aa01268bc167","from":"RECEIVED","to":"VALIDATED","reason":null}
+{"ts":"2026-02-04T15:17:48.347Z","action":"DELETE","docId":"7e548b15-1ce6-48a6-b519-aa01268bc167","reason":"test"}
+{"ts":"2026-02-04T15:17:48.348Z","action":"STATUS_CHANGE","docId":"7e548b15-1ce6-48a6-b519-aa01268bc167","from":"VALIDATED","to":"REJECTED","reason":"test"}
+{"ts":"2026-02-04T15:19:22.552Z","action":"CREATE","docId":"6f230331-ce7f-4889-88c9-3cabe0145190","clientRef":"CLI-7983","docType":"ADDRESS_PROOF","status":"VALIDATED"}
+{"ts":"2026-02-04T15:19:22.553Z","action":"STATUS_CHANGE","docId":"6f230331-ce7f-4889-88c9-3cabe0145190","from":"RECEIVED","to":"VALIDATED","reason":null}
+{"ts":"2026-02-04T15:19:29.214Z","action":"DELETE","docId":"6f230331-ce7f-4889-88c9-3cabe0145190","reason":"test"}
+{"ts":"2026-02-04T15:19:29.215Z","action":"STATUS_CHANGE","docId":"6f230331-ce7f-4889-88c9-3cabe0145190","from":"VALIDATED","to":"REJECTED","reason":"test"}
+{"ts":"2026-02-04T15:20:37.588Z","action":"DELETE","docId":"6f230331-ce7f-4889-88c9-3cabe0145190","reason":"test"}
+{"ts":"2026-02-04T15:20:37.589Z","action":"STATUS_CHANGE","docId":"6f230331-ce7f-4889-88c9-3cabe0145190","from":"VALIDATED","to":"REJECTED","reason":"test"}
+{"ts":"2026-02-04T15:22:06.330Z","action":"CREATE","docId":"2637c273-a736-418f-ae7f-1a55c4d976c1","clientRef":"CLI-7321","docType":"ADDRESS_PROOF","status":"VALIDATED"}
+{"ts":"2026-02-04T15:22:06.331Z","action":"STATUS_CHANGE","docId":"2637c273-a736-418f-ae7f-1a55c4d976c1","from":"RECEIVED","to":"VALIDATED","reason":null}
+{"ts":"2026-02-04T15:22:11.468Z","action":"DELETE","docId":"2637c273-a736-418f-ae7f-1a55c4d976c1","reason":"test"}
+{"ts":"2026-02-04T15:22:11.470Z","action":"STATUS_CHANGE","docId":"2637c273-a736-418f-ae7f-1a55c4d976c1","from":"VALIDATED","to":"REJECTED","reason":"test"}
+{"ts":"2026-02-04T15:38:46.970Z","action":"CREATE","docId":"6446574d-159c-4baa-97d3-cba9ac706508","clientRef":"CLI-4704","docType":"ADDRESS_PROOF","status":"VALIDATED"}
+{"ts":"2026-02-04T15:38:46.972Z","action":"STATUS_CHANGE","docId":"6446574d-159c-4baa-97d3-cba9ac706508","from":"RECEIVED","to":"VALIDATED","reason":null}
+{"ts":"2026-02-04T15:40:26.621Z","action":"DELETE","docId":"6446574d-159c-4baa-97d3-cba9ac706508","reason":"test"}
+{"ts":"2026-02-04T15:40:26.622Z","action":"STATUS_CHANGE","docId":"6446574d-159c-4baa-97d3-cba9ac706508","from":"VALIDATED","to":"REJECTED","reason":"test"}
+{"ts":"2026-02-04T15:41:15.972Z","action":"CONTENT_READ","docId":"6bd66d85-4d2c-4192-a28f-d6c01f412f85"}
+{"ts":"2026-02-04T15:41:17.730Z","action":"CONTENT_READ","docId":"1f3f3b2e-ffb5-47b9-8bf3-9920ef8c8be7"}
+{"ts":"2026-02-04T15:41:19.351Z","action":"CONTENT_READ","docId":"6446574d-159c-4baa-97d3-cba9ac706508"}
+{"ts":"2026-02-04T21:30:13.472Z","action":"CREATE","docId":"ee03efeb-0211-4baa-9850-613341d5aea8","clientRef":"CLI-6725","docType":"ADDRESS_PROOF","status":"VALIDATED"}
+{"ts":"2026-02-04T21:30:13.476Z","action":"STATUS_CHANGE","docId":"ee03efeb-0211-4baa-9850-613341d5aea8","from":"RECEIVED","to":"VALIDATED","reason":null}
+{"ts":"2026-02-04T21:30:29.364Z","action":"STATUS_CHANGE","docId":"ee03efeb-0211-4baa-9850-613341d5aea8","from":"VALIDATED","to":"REJECTED","reason":"Test"}
+{"ts":"2026-02-04T21:33:19.160Z","action":"CREATE","docId":"a7e6ce0f-baee-4fe4-a447-b457c6b15f4b","clientRef":"CLI-9116","docType":"ADDRESS_PROOF","status":"VALIDATED"}
+{"ts":"2026-02-04T21:33:19.162Z","action":"STATUS_CHANGE","docId":"a7e6ce0f-baee-4fe4-a447-b457c6b15f4b","from":"RECEIVED","to":"VALIDATED","reason":null}
+{"ts":"2026-02-04T21:33:22.372Z","action":"CONTENT_READ","docId":"a7e6ce0f-baee-4fe4-a447-b457c6b15f4b"}
+{"ts":"2026-02-04T21:33:29.016Z","action":"STATUS_CHANGE","docId":"a7e6ce0f-baee-4fe4-a447-b457c6b15f4b","from":"VALIDATED","to":"REJECTED","reason":"test"}
+{"ts":"2026-02-04T21:34:26.943Z","action":"CREATE","docId":"9f11f89f-141f-411b-a0ce-0e13453ce83f","clientRef":"CLI-2458","docType":"ADDRESS_PROOF","status":"VALIDATED"}
+{"ts":"2026-02-04T21:34:26.945Z","action":"STATUS_CHANGE","docId":"9f11f89f-141f-411b-a0ce-0e13453ce83f","from":"RECEIVED","to":"VALIDATED","reason":null}
+{"ts":"2026-02-04T21:34:33.161Z","action":"STATUS_CHANGE","docId":"9f11f89f-141f-411b-a0ce-0e13453ce83f","from":"VALIDATED","to":"REJECTED","reason":"test"}
+{"ts":"2026-02-04T21:34:37.493Z","action":"DELETE","docId":"9f11f89f-141f-411b-a0ce-0e13453ce83f","reason":"test"}
+{"ts":"2026-02-04T21:35:29.606Z","action":"CREATE","docId":"5cd96447-7df3-4c81-b184-7d154842ad3c","clientRef":"CLI-5710","docType":"ID_PROOF","status":"VALIDATED"}
+{"ts":"2026-02-04T21:35:29.607Z","action":"STATUS_CHANGE","docId":"5cd96447-7df3-4c81-b184-7d154842ad3c","from":"RECEIVED","to":"VALIDATED","reason":null}
+{"ts":"2026-02-04T21:35:38.197Z","action":"STATUS_CHANGE","docId":"5cd96447-7df3-4c81-b184-7d154842ad3c","from":"VALIDATED","to":"REJECTED","reason":"test"}
+{"ts":"2026-02-04T21:35:42.301Z","action":"DELETE","docId":"5cd96447-7df3-4c81-b184-7d154842ad3c","reason":"test"}
+{"ts":"2026-02-04T21:39:17.527Z","action":"CREATE","docId":"032ce9f7-b5ba-400d-8c4a-8f2aee8f6b6f","clientRef":"CLI-3490","docType":"ID_PROOF","status":"VALIDATED"}
+{"ts":"2026-02-04T21:39:17.528Z","action":"STATUS_CHANGE","docId":"032ce9f7-b5ba-400d-8c4a-8f2aee8f6b6f","from":"RECEIVED","to":"VALIDATED","reason":null}
+{"ts":"2026-02-04T21:39:26.625Z","action":"STATUS_CHANGE","docId":"032ce9f7-b5ba-400d-8c4a-8f2aee8f6b6f","from":"VALIDATED","to":"REJECTED","reason":"test"}
+{"ts":"2026-02-04T21:39:33.241Z","action":"DELETE","docId":"032ce9f7-b5ba-400d-8c4a-8f2aee8f6b6f","reason":"test"}
+{"ts":"2026-02-04T21:45:33.300Z","action":"CONTENT_READ","docId":"6bd66d85-4d2c-4192-a28f-d6c01f412f85"}
+{"ts":"2026-02-04T21:45:36.024Z","action":"CONTENT_READ","docId":"1f3f3b2e-ffb5-47b9-8bf3-9920ef8c8be7"}
+{"ts":"2026-02-04T21:46:58.411Z","action":"CREATE","docId":"9185786f-acc8-46b1-b667-20f75e2b5dcc","clientRef":"CLI-1234","docType":"ADDRESS_PROOF","status":"VALIDATED"}
+{"ts":"2026-02-04T21:46:58.412Z","action":"STATUS_CHANGE","docId":"9185786f-acc8-46b1-b667-20f75e2b5dcc","from":"RECEIVED","to":"VALIDATED","reason":null}
+{"ts":"2026-02-04T21:47:04.822Z","action":"STATUS_CHANGE","docId":"9185786f-acc8-46b1-b667-20f75e2b5dcc","from":"VALIDATED","to":"REJECTED","reason":"test"}
+{"ts":"2026-02-04T21:47:12.617Z","action":"DELETE","docId":"9185786f-acc8-46b1-b667-20f75e2b5dcc","reason":"test"}
+{"ts":"2026-02-04T21:47:45.960Z","action":"CREATE","docId":"17592e2d-ca41-4c9a-89b2-5b687bd05c79","clientRef":"CLI-5861","docType":"ID_PROOF","status":"VALIDATED"}
+{"ts":"2026-02-04T21:47:45.961Z","action":"STATUS_CHANGE","docId":"17592e2d-ca41-4c9a-89b2-5b687bd05c79","from":"RECEIVED","to":"VALIDATED","reason":null}
+{"ts":"2026-02-04T21:56:09.261Z","action":"STATUS_CHANGE","docId":"17592e2d-ca41-4c9a-89b2-5b687bd05c79","from":"VALIDATED","to":"REJECTED","reason":"test"}
+{"ts":"2026-02-04T22:00:59.335Z","action":"DELETE","docId":"17592e2d-ca41-4c9a-89b2-5b687bd05c79","reason":"test"}
+{"ts":"2026-02-04T22:01:40.282Z","action":"STATUS_CHANGE","docId":"1f3f3b2e-ffb5-47b9-8bf3-9920ef8c8be7","from":"VALIDATED","to":"QUEUED","reason":null}
+{"ts":"2026-02-04T22:01:57.476Z","action":"STATUS_CHANGE","docId":"1f3f3b2e-ffb5-47b9-8bf3-9920ef8c8be7","from":"QUEUED","to":"PROCESSED","reason":null}
