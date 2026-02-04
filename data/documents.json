@@ -1,18 +1,5 @@
 [
   {
-    "id": "6bd66d85-4d2c-4192-a28f-d6c01f412f85",
-    "clientRef": "CLI-5861",
-    "docType": "ID_PROOF",
-    "filename": "test1.txt",
-    "contentType": "text/plain",
-    "sizeBytes": 4,
-    "checksum": "9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08",
-    "status": "REJECTED",
-    "reason": "test",
-    "createdAt": "2026-01-23T13:58:28.829Z",
-    "updatedAt": "2026-02-01T23:07:34.517Z"
-  },
-  {
     "id": "1f3f3b2e-ffb5-47b9-8bf3-9920ef8c8be7",
     "clientRef": "CLI-7924",
     "docType": "SIGNED_FORM",
@@ -24,5 +11,18 @@
     "reason": null,
     "createdAt": "2026-01-23T14:24:55.845Z",
     "updatedAt": "2026-02-04T22:01:57.472Z"
+  },
+  {
+    "id": "3892a9c7-2cae-431f-93e6-bf08a3bfad91",
+    "clientRef": "CLI-1234",
+    "docType": "ADDRESS_PROOF",
+    "filename": "test.txt",
+    "contentType": "text/plain",
+    "sizeBytes": 6,
+    "checksum": "6197595503f01ee2a34e403fe08d2e1d9d0c14cf1cdfc2b74739895dc9a15a04",
+    "status": "PROCESSED",
+    "reason": null,
+    "createdAt": "2026-02-04T22:32:42.576Z",
+    "updatedAt": "2026-02-04T22:33:06.073Z"
   }
 ]
