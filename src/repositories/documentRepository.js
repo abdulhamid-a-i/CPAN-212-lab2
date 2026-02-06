@@ -1,4 +1,4 @@
-import { deleteIndex, readIndex, writeIndex } from "../utils/fileStore.js";
+import { deleteIndex, readIndex, writeIndex, deleteBlob} from "../utils/fileStore.js";
 
 export const documentRepository = {
   async list() {
@@ -34,6 +34,7 @@ export const documentRepository = {
     const idx = docs.findIndex((d) => d.id === id);
     const updatedDocs = docs.filter(d => d.id !== id);
     await deleteIndex(updatedDocs);
+    await deleteBlob(id);
     return {ok: true}
   }
 };

@@ -83,7 +83,7 @@ export async function deleteBlob(docId){
    if (STORAGE_MODE === "sync") {
     return fs.unlinkSync(filePath);
    }
-   return fs.unlink(filePath, (err) => {
+   return fsp.unlink(filePath, (err) => {
     if (err){
       console.error("An error has occured: ", err);
     } else{

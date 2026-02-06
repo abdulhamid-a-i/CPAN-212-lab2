@@ -100,3 +100,6 @@
 {"ts":"2026-02-04T22:34:24.885Z","action":"STATUS_CHANGE","docId":"f6acc7cc-8e21-4b4d-bed4-a8e91b4d14b0","from":"RECEIVED","to":"VALIDATED","reason":null}
 {"ts":"2026-02-04T22:34:44.892Z","action":"STATUS_CHANGE","docId":"f6acc7cc-8e21-4b4d-bed4-a8e91b4d14b0","from":"VALIDATED","to":"REJECTED","reason":"test"}
 {"ts":"2026-02-04T22:35:11.174Z","action":"DELETE","docId":"f6acc7cc-8e21-4b4d-bed4-a8e91b4d14b0","reason":"test"}
+{"ts":"2026-02-05T17:27:07.425Z","action":"CREATE","docId":"d34cb8a5-c868-4188-bcac-e8ab377690be","clientRef":"CLI-5555","docType":"BANK_STATEMENT","status":"VALIDATED"}
+{"ts":"2026-02-05T17:27:07.430Z","action":"STATUS_CHANGE","docId":"d34cb8a5-c868-4188-bcac-e8ab377690be","from":"RECEIVED","to":"VALIDATED","reason":null}
+{"ts":"2026-02-05T17:27:18.316Z","action":"STATUS_CHANGE","docId":"d34cb8a5-c868-4188-bcac-e8ab377690be","from":"VALIDATED","to":"REJECTED","reason":"test"}

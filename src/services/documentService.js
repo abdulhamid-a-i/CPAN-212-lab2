@@ -1,5 +1,5 @@
 import { documentRepository } from "../repositories/documentRepository.js";
-import { appendAudit, deleteBlob, readBlob, writeBlob } from "../utils/fileStore.js";
+import { appendAudit, readBlob, writeBlob } from "../utils/fileStore.js";
 import { newId } from "../utils/id.js";
 import { sha256Hex } from "../utils/checksum.js";
 import { nowIso } from "../utils/time.js";
@@ -170,14 +170,10 @@ export const documentService = {
     // Deletes file from index and from blob here by calling deleteBlob from fileStore
         const existing = await documentRepository.getById(id);
     if (!existing) return { ok: false, status: 404, message: "Document not found" };
-    if (existing.status !== "REJECTED") return { ok: false, status: 409, message: "Only rejected files can be deleted" };
+    if (existing.status !== "REJECTED") return { ok: false, status: 400, message: "Only rejected files can be deleted" };
 
     const updatedIndex = await documentRepository.deleteFileById(id);
-    deleteBlob(id);
-
     await appendAudit({ action: "DELETE", docId: id, reason });
-
-
     return { ok: true, doc:"deleted" };
   }
 };
