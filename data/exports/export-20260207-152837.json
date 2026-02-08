@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2026-02-07T20:28:37.404Z",
+  "date": "2026-02-07",
+  "total": 1,
+  "byStatus": {
+    "VALIDATED": 1
+  },
+  "byDocType": {
+    "ADDRESS_PROOF": 1
+  },
+  "documents": [
+    {
+      "id": "fc6e3f52-bcd3-4d34-b230-33fa738eaff9",
+      "clientRef": "CLI-1735",
+      "docType": "ADDRESS_PROOF",
+      "filename": "hj.txt",
+      "contentType": "text/plain",
+      "sizeBytes": 4,
+      "checksum": "c3163611d549744924bfe67458ef1b765ec3248bd2cecd402eac69cb13a55af7",
+      "status": "VALIDATED",
+      "reason": null,
+      "createdAt": "2026-02-07T20:28:22.439Z",
+      "updatedAt": "2026-02-07T20:28:22.439Z"
+    }
+  ]
+}

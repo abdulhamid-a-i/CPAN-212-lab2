@@ -65,7 +65,7 @@ function shortId(id) {
   return id.split("-")[0];
 }
 
-function renderRows(docs) { //Modify to only show delete if the file is rejected
+function renderRows(docs) {
   $("#countLabel").text(`${docs.length} record(s)`);
   const rows = docs.map(d => `
     <tr>

@@ -1,5 +1,5 @@
 import { documentRepository } from "../repositories/documentRepository.js";
-import { appendAudit, readBlob, writeBlob } from "../utils/fileStore.js";
+import { appendAudit, readBlob, writeBlob, deleteBlob} from "../utils/fileStore.js";
 import { newId } from "../utils/id.js";
 import { sha256Hex } from "../utils/checksum.js";
 import { nowIso } from "../utils/time.js";
@@ -172,7 +172,10 @@ export const documentService = {
     if (!existing) return { ok: false, status: 404, message: "Document not found" };
     if (existing.status !== "REJECTED") return { ok: false, status: 400, message: "Only rejected files can be deleted" };
 
-    const updatedIndex = await documentRepository.deleteFileById(id);
+    await documentRepository.deleteFileById(id);
+
+    await deleteBlob(id);
+
     await appendAudit({ action: "DELETE", docId: id, reason });
     return { ok: true, doc:"deleted" };
   }
