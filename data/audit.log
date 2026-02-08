@@ -123,3 +123,6 @@
 {"ts":"2026-02-08T03:21:22.324Z","action":"STATUS_CHANGE","docId":"c4a56ef0-4ca7-43e5-8dc7-ce6eeb767f14","from":"VALIDATED","to":"REJECTED","reason":"test"}
 {"ts":"2026-02-08T03:21:27.820Z","action":"DELETE","docId":"c4a56ef0-4ca7-43e5-8dc7-ce6eeb767f14","reason":"test"}
 {"ts":"2026-02-08T03:21:32.108Z","action":"EXPORT_GENERATED","filename":"export-20260207-222132.json","summary":{"date":"2026-02-07","total":0,"byStatus":{},"byDocType":{}}}
+{"ts":"2026-02-08T22:33:41.969Z","action":"CREATE","docId":"8af4da86-a8d6-4a0e-b14a-f4e6e013efec","clientRef":"CLI-2026","docType":"ID_PROOF","status":"VALIDATED"}
+{"ts":"2026-02-08T22:33:41.971Z","action":"STATUS_CHANGE","docId":"8af4da86-a8d6-4a0e-b14a-f4e6e013efec","from":"RECEIVED","to":"VALIDATED","reason":null}
+{"ts":"2026-02-08T22:33:48.667Z","action":"STATUS_CHANGE","docId":"8af4da86-a8d6-4a0e-b14a-f4e6e013efec","from":"VALIDATED","to":"REJECTED","reason":"test"}
